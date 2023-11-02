@@ -1,0 +1,23 @@
+{
+	"folders": [
+        {
+            "path": "./server_go"
+        },
+		{
+			"path": "./client_go"
+		},
+        {
+            "path": "./client_go_call_python"
+        },
+        {
+            "path": "./server_py"
+        },
+        {
+            "path": "./client_py"
+        },
+        {
+            "path": "./proto"
+        }
+	],
+	"settings": {}
+}

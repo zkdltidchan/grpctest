@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package pyServerTest;
+option go_package = ".;pyServerTest";
+
+service PyTestService {
+    rpc GetTestPY (TestRequest) returns (TestResponse);
+}
+
+message TestRequest {
+    string testName = 1;
+}
+
+message TestResponse {
+    string message = 1;
+}
+
+
+
